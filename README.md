@@ -1,5 +1,6 @@
 # How to recreate
 
+```
 mkdir ageCalculator
 cd ageCalculator
 dotnet new sln
@@ -12,6 +13,7 @@ dotnet add  ./AgeCalc.Tests/AgeCalc.Tests.csproj package FluentAssertions
 dotnet build
 dotnet test
 code .
+```
 
 1. **`mkdir ageCalculator`**
    - This command creates a new directory called `ageCalculator`. This will be the root directory for your project.
