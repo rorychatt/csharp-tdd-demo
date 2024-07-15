@@ -11,7 +11,6 @@ public class AgeCalculatorTests
     [InlineData(2072, 1972, 100)]
     public void Returns_the_age_for_a_year(int currentYear, int birthYear, int expectedAge)
     {
-        var calculator = new AgeCalculator();
         var age = AgeCalculator.GetAge(currentYear, birthYear);
         age.Should().Be(expectedAge);
     }
