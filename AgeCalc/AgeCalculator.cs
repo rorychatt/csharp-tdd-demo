@@ -3,5 +3,5 @@ namespace AgeCalc;
 
 public class AgeCalculator
 {
-    public int GetAge(int currentYear, int birthYear) => currentYear - birthYear;
+    public static int GetAge(int currentYear, int birthYear) => currentYear - birthYear;
 }

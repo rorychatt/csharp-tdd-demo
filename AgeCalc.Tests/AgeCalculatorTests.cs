@@ -12,7 +12,7 @@ public class AgeCalculatorTests
     public void Returns_the_age_for_a_year(int currentYear, int birthYear, int expectedAge)
     {
         var calculator = new AgeCalculator();
-        var age = calculator.GetAge(currentYear, birthYear);
+        var age = AgeCalculator.GetAge(currentYear, birthYear);
         age.Should().Be(expectedAge);
     }
 }
